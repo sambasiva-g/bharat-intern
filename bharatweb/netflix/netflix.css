@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: #ffffff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #111;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+
+  .trending-now>ul
+  {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+  }
+  
+  .popular-movies>ul
+  {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .continue-watching>ul{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .top-picks>ul
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  
